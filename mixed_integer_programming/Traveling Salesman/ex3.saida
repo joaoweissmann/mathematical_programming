@@ -1,0 +1,46 @@
+Tried aggregator 1 time.
+Reduced MIP has 16 rows, 120 columns, and 240 nonzeros.
+Reduced MIP has 120 binaries, 0 generals, 0 SOSs, and 0 indicators.
+Presolve time = 0.00 sec. (0.11 ticks)
+Found incumbent of value 13067.000000 after 0.00 sec. (0.34 ticks)
+Probing time = 0.00 sec. (0.02 ticks)
+Tried aggregator 1 time.
+Reduced MIP has 16 rows, 120 columns, and 240 nonzeros.
+Reduced MIP has 120 binaries, 0 generals, 0 SOSs, and 0 indicators.
+Presolve time = 0.00 sec. (0.13 ticks)
+Probing time = 0.00 sec. (0.02 ticks)
+MIP emphasis: balance optimality and feasibility.
+MIP search method: dynamic search.
+Parallel mode: deterministic, using up to 12 threads.
+Root relaxation solution time = 0.00 sec. (0.08 ticks)
+
+        Nodes                                         Cuts/
+   Node  Left     Objective  IInf  Best Integer    Best Bound    ItCnt     Gap
+
+*     0+    0                        13067.0000        0.0000           100.00%
+*     0+    0                        11313.0000        0.0000           100.00%
+*     0     0      integral     0     6113.0000     6113.0000       19    0.00%
+Elapsed time = 0.00 sec. (0.70 ticks, tree = 0.00 MB, solutions = 3)
+
+Root node processing (before b&c):
+  Real time             =    0.00 sec. (0.71 ticks)
+Parallel b&c, 12 threads:
+  Real time             =    0.00 sec. (0.00 ticks)
+  Sync time (average)   =    0.00 sec.
+  Wait time (average)   =    0.00 sec.
+                          ------------
+Total (root+branch&cut) =    0.00 sec. (0.71 ticks)
+Solution status = Optimal
+Solution value  = 6113
+Values        = [0, 0, 0, -0, -0, -0, 1, -0, -0, -0,
+-0, -0, -0, -0, 1, 1, 1, -0, -0, -0,
+-0, -0, -0, -0, -0, -0, -0, -0, -0, 1,
+-0, -0, -0, -0, -0, -0, -0, -0, -0, -0,
+-0, 0, -0, -0, -0, 0, -0, -0, -0, -0,
+-0, -0, -0, -0, 0, -0, -0, -0, -0, 1,
+-0, -0, -0, 1, -0, 1, -0, 0, -0, -0,
+-0, -0, -0, 1, -0, -0, 0, 1, -0, 0,
+-0, -0, -0, -0, -0, -0, -0, -0, -0, -0,
+-0, 1, 1, 1, -0, -0, -0, -0, -0, -0,
+-0, -0, -0, -0, -0, -0, -0, -0, -0, -0,
+1, 1, -0, -0, 1, -0, -0, 0, -0, -0]
